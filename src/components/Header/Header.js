@@ -39,7 +39,7 @@ const Header = () => {
           <UnstyledButton onClick={() => console.log('search!')}>
             <Icon id="search" />
           </UnstyledButton>
-          <UnstyledButton onClick={() => console.log('menu!')}>
+          <UnstyledButton onClick={() => setShowMobileMenu(true)}>
             <Icon id="menu" />
           </UnstyledButton>
         </MobileActions>
